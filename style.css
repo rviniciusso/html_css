@@ -1,16 +1,46 @@
-body { font-family: Arial, sans-serif; background:#fff; color:#222; }
+body { 
+    font-family: Arial, sans-serif; 
+    background:#fff; 
+    color:#000000; 
+}
+
 header {
-background:#F5A3A3;
-padding:16px; }
+background:#0099ff;
+padding: 16px; 
+border-radius:8px;
+color:#ffffff
+}
 
-.painel { background:#fff;
-background:#fff; border
-border-
--
-radius:8px; boxshadow:0 2px 8px
-rgba(0,0,0,.1);
-padding:12px; }
+.painel { 
+background:#ffffff; 
+border: 1px solid #ccc;
+border-radius:8px; 
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+padding:12px; 
+}
 
-.painel h2 { size:16px; fontsize:16px; color:#333; }
-a.footer-link:hover { color:#fff; background:#F5A3A3; }
-a.footer-link:focus { outline:2px solid #F5A3A3; }
+.painel h2 { 
+    size:16px; 
+    font-size:16px; 
+    color:#000000; 
+}
+
+
+a.footer-link:hover { 
+    color:#fff; 
+    background:#F5A3A3; 
+}
+
+a.footer-link:focus { 
+    outline:2px solid #F5A3A3; 
+}
+
+
+a[href^="http"] { 
+    color:#d80303;
+}
+
+a[href^="http"]::before { 
+    content: "https://github.com/dashboard"
+}
+
