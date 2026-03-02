@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; background:#fff; color:#222; }
+header {
+background:#F5A3A3;
+padding:16px; }
+
+.painel { background:#fff;
+background:#fff; border
+border-
+-
+radius:8px; boxshadow:0 2px 8px
+rgba(0,0,0,.1);
+padding:12px; }
+
+.painel h2 { size:16px; fontsize:16px; color:#333; }
+a.footer-link:hover { color:#fff; background:#F5A3A3; }
+a.footer-link:focus { outline:2px solid #F5A3A3; }
