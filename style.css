@@ -1,46 +1,67 @@
-body { 
-    font-family: Arial, sans-serif; 
-    background:#fff; 
-    color:#000000; 
+header, .topo {
+    padding: 20px;
+    background: #F5A3A3;
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 1px;
 }
 
-header {
-background:#0099ff;
-padding: 16px; 
-border-radius:8px;
-color:#ffffff
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4; 
+    color: #222;
+    margin: 0px;
 }
 
-.painel { 
-background:#ffffff; 
-border: 1px solid #ccc;
-border-radius:8px; 
-box-shadow:0 2px 8px rgba(0,0,0,.1);
-padding:12px; 
+.painel {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1); 
+    padding: 20px;
+    margin: 20px; 
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
-.painel h2 { 
-    size:16px; 
-    font-size:16px; 
-    color:#000000; 
+.painel h2 {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #fff;
+    background: #F5A3A3;
+    border-radius: 4px;
+}
+
+.footer-link:focus {
+    outline: 2px solid #F5A3A3;
 }
 
 
-a.footer-link:hover { 
-    color:#fff; 
-    background:#F5A3A3; 
+a[href^="http"] {
+    color: #F5A3A3;
+    font-weight: bold;
 }
 
-a.footer-link:focus { 
-    outline:2px solid #F5A3A3; 
+a[href^="http"]::before {
+    content: "🌐 "; 
 }
 
-
-a[href^="http"] { 
-    color:#d80303;
+.rodape{
+    color: #000000;
+    border-radius: 4px;
+    margin: 20px; 
+    margin-left: 120px;
+    margin-right: 70px;
 }
-
-a[href^="http"]::before { 
-    content: "https://github.com/dashboard"
-}
-
