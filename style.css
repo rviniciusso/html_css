@@ -1,6 +1,6 @@
 header, .topo {
     padding: 20px;
-    background: #F5A3A3;
+    background: #700061;
     color: #fff;
     margin-left: 0px;
     margin-right: 0px;
@@ -18,11 +18,11 @@ body {
 .painel {
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.1); 
+    box-shadow: 10px 10px rgba(0,0,0,.1); 
     padding: 20px;
     margin: 20px; 
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 
 .painel h2 {
@@ -40,17 +40,17 @@ body {
 
 .footer-link:hover {
     color: #fff;
-    background: #F5A3A3;
+    background: #5800ca;
     border-radius: 4px;
 }
 
 .footer-link:focus {
-    outline: 2px solid #F5A3A3;
+    outline: 2px solid #003cff;
 }
 
 
 a[href^="http"] {
-    color: #F5A3A3;
+    color: #004caf;
     font-weight: bold;
 }
 
@@ -62,6 +62,6 @@ a[href^="http"]::before {
     color: #000000;
     border-radius: 4px;
     margin: 20px; 
-    margin-left: 120px;
+    margin-left: 220px;
     margin-right: 70px;
 }
